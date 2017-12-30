@@ -68,14 +68,15 @@ nav {
 .fly-in-text {
                 list-style: none;
                 position: absolute;
-                left: 50%;
+                left: 20%;
                 top: 50%;
                 transform: translateX(-50%) translateY(-50%);
             }
             .fly-in-text li {
                 display: inline-block;
-                margin-right: 50px;
-                font-family: Open Sans, Arial;
+                margin-right: 10px;
+                font-family:  Arial;
+
                 font-weight: 300;
                 font-size: 4em;
                 color: #000;
@@ -96,3 +97,16 @@ nav {
             .fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
             .fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
               .fly-in-text.hidden li:nth-child(8) { transform: translateX(-280px) translateY(10px); }
+
+
+/* iuyuyto */
+.text {
+  max-width: 50%;
+  margin-right: -40px;
+}
+
+.picture {
+max-width: 50%;
+
+  margin-left: -90px;
+}

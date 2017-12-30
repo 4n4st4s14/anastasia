@@ -6,3 +6,8 @@ $(function() {
                }, 500);
 
            })();
+
+
+ function fadeIn(obj) {
+               $(obj).fadeIn(5000);
+           }
